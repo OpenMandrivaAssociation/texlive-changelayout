@@ -1,3 +1,9 @@
+# revision 16094
+# category Package
+# catalog-ctan /macros/latex/contrib/changelayout
+# catalog-date 2009-11-09 14:16:05 +0100
+# catalog-license lppl
+# catalog-version 1.0
 Name:		texlive-changelayout
 Version:	1.0
 Release:	1
@@ -40,6 +46,7 @@ texts.
 %doc %{_texmfdistdir}/doc/latex/changelayout/README
 %doc %{_texmfdistdir}/doc/latex/changelayout/changelayout-guide.pdf
 %doc %{_texmfdistdir}/doc/latex/changelayout/changelayout-guide.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -50,3 +57,5 @@ texts.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
