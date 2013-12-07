@@ -6,7 +6,7 @@
 # catalog-version 1.0
 Name:		texlive-changelayout
 Version:	1.0
-Release:	3
+Release:	4
 Summary:	Change the layout of individual pages and their text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changelayout
