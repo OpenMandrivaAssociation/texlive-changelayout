@@ -1,6 +1,6 @@
 Name:		texlive-changelayout
 Version:	16094
-Release:	1
+Release:	2
 Summary:	Change the layout of individual pages and their text
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changelayout
