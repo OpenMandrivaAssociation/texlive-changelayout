@@ -3,7 +3,7 @@ Version:	16094
 Release:	2
 Summary:	Change the layout of individual pages and their text
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/changelayout
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/changelayout
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changelayout.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/changelayout.doc.r%{version}.tar.xz
